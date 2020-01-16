@@ -1,0 +1,112 @@
+html, body {
+    width: 100%;
+  height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+}
+
+
+
+canvas {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.wrapper {
+    width: 812px;
+    margin: 0 auto;
+
+    
+}
+
+#column-1 {
+  width: 33%;
+  color: white;
+  float: left;
+  min-height: 100%;
+  font-size: 17px;
+}
+
+#column-2 {
+  
+  width: 34%;
+  min-height: 100%;
+  float: left;
+  color: white;
+  font-size: 17;
+}
+
+#column-3 {
+  width: 33%;
+  min-height: 100%;
+  float: left;
+  color: white;
+  font-size: 17;
+}
+
+
+#scoreWrapper {
+    margin-left: 100px;
+    float: left;
+    color: white;
+    font-size: 17;
+}
+
+#lifeWrapper {
+    margin-left: 100px;
+     float: right;
+    color: white;
+    font-size: 17;
+}
+
+#gameTimeWrapper {
+    float: left;
+    color: white;
+    font-size: 17;
+}
+
+.key {
+    position:relative;
+    color: #aaffdd;
+}
+
+#game-over, #game-over-overlay {
+    margin: auto;
+    width: 800px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+
+#game-over-overlay {
+    background-color: black;
+    opacity: .5;
+}
+
+#game-over {
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+#game-over h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+#game-over button {
+    font-size: 1.5em;
+}
